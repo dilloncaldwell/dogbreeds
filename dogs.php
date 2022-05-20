@@ -64,7 +64,7 @@ curl_close($curl);
         <form method="post">
             <!-- <input type="text" name="breed" placeholder="Enter Dog Breed..."> -->
             <select name="breed-select" id="breed-select">
-            <option>Select a breed.. </option>
+            <option selected disabled hidden>Select a breed.. </option>
             </select>
             <input type="submit" value="Request Images">
         </form>
